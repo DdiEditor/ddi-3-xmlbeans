@@ -4,63 +4,59 @@
     <xb:suffix>XmlBean</xb:suffix>
   	</xb:namespace-->
 
-	<!-- Map "*30XXX" namespace to Java package name: 
-		'org.ddialliance.ddi_3_0xxx.xml.xmlbeans.*' -->
-	<xb:namespace uri="ddi:archive:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.archive</xb:package>
+	<!-- Map "ddi:*:3_1" namespace to Java package name: 
+		'org.ddialliance.ddi3.xml.xmlbeans.*' -->
+	<xb:namespace uri="ddi:archive:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.archive</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:comparative:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.comparative</xb:package>
+	<xb:namespace uri="ddi:comparative:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.comparative</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:conceptualcomponent:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.conceptualcomponent</xb:package>
+	<xb:namespace uri="ddi:conceptualcomponent:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.conceptualcomponent</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:datacollection:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.datacollection</xb:package>
+	<xb:namespace uri="ddi:datacollection:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.datacollection</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:dataset:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.dataset</xb:package>
+	<xb:namespace uri="ddi:dataset:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.dataset</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:dcelements:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.dcelements</xb:package>
+	<xb:namespace uri="ddi:dcelements:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.dcelements</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:DDIprofile:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.ddiprofile</xb:package>
+	<xb:namespace uri="ddi:group:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.group</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:group:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.group</xb:package>
+	<xb:namespace uri="ddi:instance:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.instance</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:instance:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.instance</xb:package>
+	<xb:namespace uri="ddi:logicalproduct:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.logicalproduct</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:logicalproduct:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.logicalproduct</xb:package>
+	<xb:namespace uri="ddi:physicaldataproduct:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.physicaldataproduct</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:physicaldataproduct:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.physicaldataproduct</xb:package>
+	<xb:namespace uri="ddi:physicaldataproduct_ncube_inline:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.physicaldataproduct.ncube.inline</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:physicaldataproduct_ncube_inline:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.physicaldataproduct.ncube.inline</xb:package>
+	<xb:namespace uri="ddi:physicaldataproduct_ncube_normal:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.physicaldataproduct.ncube.normal</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:physicaldataproduct_ncube_normal:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.physicaldataproduct.ncube.normal</xb:package>
+		<xb:namespace uri="ddi:physicaldataproduct_ncube_tabular:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.physicaldataproduct.ncube.tabular</xb:package>
 	</xb:namespace>
-		<xb:namespace uri="ddi:physicaldataproduct_ncube_tabular:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.physicaldataproduct.ncube.tabular</xb:package>
+	<xb:namespace uri="ddi:physicalinstance:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.physicalinstance</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:physicalinstance:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.physicalinstance</xb:package>
+	<xb:namespace uri="ddi:ddiprofile:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.ddiprofile</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:ddiprofile:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.ddiprofile</xb:package>
+	<xb:namespace uri="ddi:physicaldataproduct_proprietary:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.physicaldataproduct.proprietary</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:physicaldataproduct_proprietary:3_0_Beta">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.physicaldataproduct.proprietary</xb:package>
+	<xb:namespace uri="ddi:reusable:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.reusable</xb:package>
 	</xb:namespace>
-	<xb:namespace uri="ddi:reusable:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.reusable</xb:package>
-	</xb:namespace>
-	<xb:namespace uri="ddi:studyunit:3_0">
-		<xb:package>org.ddialliance.ddi_3_0.xml.xmlbeans.studyunit</xb:package>
-	</xb:namespace>
-</xb:config>
+	<xb:namespace uri="ddi:studyunit:3_1">
+		<xb:package>org.ddialliance.ddi3.xml.xmlbeans.studyunit</xb:package>
+	</xb:namespace></xb:config>
