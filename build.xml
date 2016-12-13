@@ -47,19 +47,8 @@
 		<mkdir dir="${build.dir.jdoc}" />
 		<mkdir dir="${build.dir.ddi}" />
 
-		<!-- checkout ddi schema from sf.net-->
-		<!--waiting on svn fix from ddi-tic 
-		echo message="Do Subversion export of: ${ddi.svn.url}" />
-		<svn>
-			<export force="true" srcurl="${ddi.svn.url}" revision="HEAD" destpath="${build.dir.ddi}" />
-		</svn-->
-		<!-- hotfix begin -->
-		<copy todir="${build.dir.ddi}" overwrite="yes" verbose="true">
-			<fileset dir="${waiting.tic.fix.localcopy.schema.dir}">
-				<include name="${waiting.tic.fix.localcopy.schema.zip}" />
-			</fileset>
-		</copy>
-		<!-- hotfix end -->
+		<get src="${ddi.bitbucket.url}" dest="${build.dir.ddi}"/>
+		
 		<unzip dest="${build.dir.ddi}">
 			<fileset dir="${build.dir.ddi}">
 				<include name="*.zip" />
